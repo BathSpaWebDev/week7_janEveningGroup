@@ -1,19 +1,7 @@
 const url = 'https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.geojson';
 
-const myArray = ['apple', 'orange', 'pear']
-
+// const myArray = ['apple', 'orange', 'pear']
 const targetDiv = document.querySelector('.eq');
-
-myArray.map((arrItem, i) => {
-    console.log(arrItem);
-})
-
-// for (let i = 0; i < myArray.length; i++ ) {
-//   // console.log(myArray[i]);
-//   const p = document.createElement('p');
-//   p.innerHTML = myArray[i];
-//   targetDiv.appendChild(p);
-// }
 
 // GET
 
@@ -35,9 +23,6 @@ function fetchData(apiUrl){
       return data;
     })
     .catch((error) => console.log(error.message));
-
-
-
 }
 
 fetchData(url);
