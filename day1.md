@@ -1,6 +1,6 @@
 # What happens when we make a request to a websites
 
-When we visit a website (eg. netflix.com), we are sending an http request accross the internet to the server where the website is hosted. Then **request** returns a **response**, and in the response the website document is sent back and you can view it in your browser.
+When we visit a website (eg. netflix.com), we are sending an http request accross the internet to the server where the website is hosted. The **request** returns a **response**, and in the response the website document is sent back and you can view it in your browser.
 
 # What is meant by stacks?
 
@@ -14,10 +14,13 @@ When someone asks, what is your tech stack, they are referring to the list of di
 
 Stacks let us know about the frontend and backend of our web app.
 
-Frontend - This is the UI part of the webapp
-Backend - this is the things that happen behind the scenes (databases, integration with filesystem, server security etc..).
+- Frontend
+This is the UI part of the webapp
 
-Front end is like the customer facing aspect of a restaurant, and the backend is like the kitchen, that does all the work behind the scenes to prepare the food.
+- Backend
+this is the things that happen behind the scenes (databases, integration with filesystem, server security etc..).
+
+Front-end is like the customer facing aspect of a restaurant, and the backend is like the kitchen, that does all the work behind the scenes to prepare the food.
 
 The API could be seen as the interface between the two. So where the data is exposed (or served) so it can be accessed by other apps and services.
 
