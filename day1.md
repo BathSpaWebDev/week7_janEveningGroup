@@ -32,18 +32,18 @@ An API is a series of endpoints. There are urls where the data is exposed.
 
 They are an interface between the backend where data is contained, and front-end (UI) of your website.
 
-#Types of HTTP request
+# Types of HTTP request:
 
-GET requests
+**GET** requests
 They request to return some data from the server.
 
-POST
+**POST**
 You are adding a new resource. So you normally send data TO the api in your request.
 
-PUT
+**PUT**
 This is used when you update a resource on the API.
 
-DELETE
+**DELETE**
 deletes a resource.
 
 
@@ -84,7 +84,6 @@ myArray.map((item,i) => {
 ```
 Then console.log the title of the earthquakes.
 
-Stretch. log or print in html the locations  
 
 #Useful resources
 https://github.com/jdorfman/awesome-json-datasets
