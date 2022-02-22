@@ -1,0 +1,10 @@
+{
+  "animals": [
+     { "name": "tiger" },
+     { "name": "lion" },
+     {
+       "name": "hippo",
+       "height": "2m",
+     }
+  ]
+}
