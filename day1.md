@@ -55,6 +55,7 @@ These are what we will be using mainly. They are **normally in json format**, bu
 JSON is a text-based data format following JavaScript object syntax
 
 The syntax is very similar to javascript objects.
+```
 {
   "animals": [
      { "name": "tiger" },
@@ -62,6 +63,7 @@ The syntax is very similar to javascript objects.
      { "name": "hippo" }
   ]
 }
+```
 To access a json array item (eg. first animal):  `animals[tiger]`
 To access a json object key (eg. name):  `myobject.name`
 
