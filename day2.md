@@ -1,5 +1,29 @@
 # Making Post requests with fetchData
 
+We use POST requests to **add** a new resource. It doesn't replace existing data on the server.
+
+When we make a POST request we send the data we want to add (eg. a new user) TO the server/api - the server can then handle the data, for example create new record in db.
+
+We include the data in the **body** property like so:
+
+```
+function sendData() {
+  fetch(apiUrl, {
+    method: 'POST',
+    body: JSON.stringify(data)
+  })
+    .then(response => {
+      console.log(response);
+      if(response.status == '201') {
+        console.log('Yay, HTTP request worked');
+      }
+      return response.json()
+    })
+    .catch((error) => console.log(error.message));
+}
+
+```
+
 # JS objects
 
 Objects are denoted with curly braces. You can store them in a variable like this:
@@ -45,7 +69,6 @@ If we have an array within an object, we can access like this:
 ```
 myObject.exampleArray[0]
 ```
-
 
 #ASIDE on getting elements from html
 Her are some different ways of accessing the html document:
