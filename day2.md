@@ -23,6 +23,45 @@ function sendData() {
 }
 
 ```
+# json
+
+Pretty much all browsers understand JS. For that reason, it makes sense to use a data format that is readable (easily)by JS: JavaScript Object Notation.
+
+There aren't many differences between JSON and JS objects, the main one is that all the keys, and any string values, need to be in double quotes:
+
+{
+  "key": "value",
+  "string": "string",
+  "number": 123,
+  "boolean": true,
+  "objects": {
+    "value": "value",
+    "arrays": [
+      true,
+      123,
+      "string",
+      {
+        "foo": "bar"
+      },
+      [
+        1,
+        2
+      ]
+    ]
+  }
+}
+A JSON file can be one enormous object, or it can be an array of data.
+
+[
+  {
+    "key": "value"
+  },
+  {
+    "key": "value"
+  }
+]
+
+To work with JSON you must first understand how to access js objects and arrays. So you should practice that, then try it with json you retrieve from an API.
 
 # JS objects
 
@@ -70,7 +109,7 @@ If we have an array within an object, we can access like this:
 myObject.exampleArray[0]
 ```
 
-#ASIDE on getting elements from html
+# ASIDE on getting elements from html
 Her are some different ways of accessing the html document:
 ```
 document.getElementById('demo');
@@ -80,5 +119,5 @@ document.querySelector('.myClass');
 document.querySelectorAll('.myClass'); // node list
 ```
 
-#Homework
+# Homework
 Practice creating js objects and arrays, and then access them using the methods described above.
