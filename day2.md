@@ -23,12 +23,12 @@ function sendData() {
 }
 
 ```
-# json
+# JSON
 
 Pretty much all browsers understand JS. For that reason, it makes sense to use a data format that is readable (easily)by JS: JavaScript Object Notation.
 
 There aren't many differences between JSON and JS objects, the main one is that all the keys, and any string values, need to be in double quotes:
-
+```
 {
   "key": "value",
   "string": "string",
@@ -50,8 +50,9 @@ There aren't many differences between JSON and JS objects, the main one is that 
     ]
   }
 }
+```
 A JSON file can be one enormous object, or it can be an array of data.
-
+```
 [
   {
     "key": "value"
@@ -60,8 +61,8 @@ A JSON file can be one enormous object, or it can be an array of data.
     "key": "value"
   }
 ]
-
-To work with JSON you must first understand how to access js objects and arrays. So you should practice that, then try it with json you retrieve from an API.
+```
+To work with JSON data you, must first understand how to access js objects and arrays. So you should practice that, then try it with json you retrieve from an API.
 
 # JS objects
 
