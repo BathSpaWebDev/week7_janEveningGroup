@@ -1,4 +1,4 @@
-# Making Post requests with fetchData
+# Making Post requests with fetch
 
 We use POST requests to **add** a new resource. It doesn't replace existing data on the server.
 
