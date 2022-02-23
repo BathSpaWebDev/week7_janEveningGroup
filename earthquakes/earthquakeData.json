@@ -37,7 +37,10 @@
             "gap":63,
             "magType":"md",
             "type":"earthquake",
-            "title":"M 0.8 - 7km NW of The Geysers, CA"
+            "title":"M 0.8 - 7km NW of The Geysers, CA",
+            "arrayExample": [
+              
+            ]
          },
          "geometry":{
             "type":"Point",
